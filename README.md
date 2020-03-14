@@ -1,3 +1,6 @@
 # minimize-shelf
 
-Very light minimized windows shelf for GNOME Shell.
+A very light gnome-shell extension that displays the minimized windows of the
+current workspace only. They are shown as icons near the wifi, sound etc area.
+
+[Screenshot](/screenshot.png?raw=true)

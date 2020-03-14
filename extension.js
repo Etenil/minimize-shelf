@@ -64,13 +64,7 @@ const WindowList = new Lang.Class({
 			this.box.connect('button-press-event', Lang.bind(this, function() {
 										this._activateWindow(workspace, metaWindow); } ));
 			this.box.icon = this.app.create_icon_texture(ICON_SIZE);
-			if (metaWindow.is_hidden()) {
-				this.box.icon.set_opacity(HIDDEN_OPACITY); this.box.style_class = 'hidden-app';
-			}
-			else {
-					if (metaWindow.has_focus()) {this.box.style_class = 'focused-app';}
-					else {this.box.style_class = 'unfocused-app';}
-			};
+			this.box.style_class = 'focused-app';
 			this.box.set_child(this.box.icon);
 			this.apps_menu.add_actor(this.box);
 		}

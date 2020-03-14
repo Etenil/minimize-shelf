@@ -1,18 +1,6 @@
 .focused-app {
   margin-left: 0px;
   margin-right: 8px;
-  border: 0px solid rgba(255, 255, 255, 1);
-  border-radius: 0px;
-  padding: 0px;
-  border-top-width: 2px;
-  border-right-width: 0px;
-  border-bottom-width: 0px;
-  border-left-width: 0px;
-}
-
-.unfocused-app {
-  margin-left: 0px;
-  margin-right: 8px;
   border: 0px hidden rgba(255, 255, 255, 0);
   border-radius: 0px;
   padding: 0px;
